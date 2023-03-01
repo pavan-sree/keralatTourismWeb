@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script></head>
+<style>
+    body{
+    background: url("https://c4.wallpaperflare.com/wallpaper/858/348/52/kettuvallam-houseboat-kerala-india-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  border-radius: 12px
+}
+h2{
+    margin-left:600px;
+}
+.container{
+    margin-top: 200px;
+    border-radius: 16px;
+    border-radius: 16px;
+}
+.container0{
+    margin-top: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.selection{
+    margin-left: 1000px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.psw{
+    border-radius: 12px;
+}
+.uname{
+    border-radius: 12px;
+}
+.submit{
+    border-radius: 12px;
+}
+.label1{
+  margin-left: 500px;
+  padding-top: 100px;
+  font-size: xx-large;
+  font-style: oblique;
+  font: bold;
+  color: #f1f1f1;
+}
+</style>
+<body >
+
+<form >
+  <label class="label1">𝒌𝒆𝒓𝒂𝒍𝒂 𝒕𝒐𝒖𝒓𝒊𝒔𝒎</label>
+  <div class="container">
+    <input type="text" placeholder="Enter Username" class="uname" required>
+    <input type="password" placeholder="Enter Password" class="psw" required>
+    
+      <button class="submit">Login</button>
+    <div class="selection">
+    <label for="countries">Choose your counytry:</label>
+  <select name="country" id="country">
+    <option value="India">India</option>
+    <option value="USA">Usa</option>
+    <option value="Russia">Russia</option>
+    <option value="Canada">Canada</option>
+  </select>
+    </div>
+    <div class="container0" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+      </div>
+  </div>
+
+  
+</form>
+</body>
+</html>
